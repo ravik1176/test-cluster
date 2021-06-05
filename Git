@@ -11,3 +11,26 @@ git commit -m "message for commit"
 git push -u origin master
 
 finally updated code will refelct from bash to git hub
+
+
+git checkout child(feature branch)
+
+above command used to move another branch. It helps not to distrub main branch
+
+You can do any changes it wont reflect in main
+
+Once you have done the changes have to commit your changes.
+
+git commit -m "messgae"
+
+If you want to pull your chnages directly to main branch 
+
+git push -u origin child branch:main branch
+
+otherway:
+
+git checkout main branch
+
+git merge child branch
+
+
