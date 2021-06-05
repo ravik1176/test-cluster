@@ -1,37 +1,47 @@
-Need to learn few commands in git
+#Need to learn few commands in git
 
-git clone repostory link
+$git clone repostory link
 
-git status
+$git status
 
-git add .
+$git add .
 
-git commit -m "message for commit"
+$git commit -m "message for commit"
 
-git push -u origin master
+$git push -u origin master
 
-finally updated code will refelct from bash to git hub
-
-
-git checkout child(feature branch)
-
-above command used to move another branch. It helps not to distrub main branch
-
-You can do any changes it wont reflect in main
-
-Once you have done the changes have to commit your changes.
-
-git commit -m "messgae"
-
-If you want to pull your chnages directly to main branch 
-
-git push -u origin child branch:main branch
+#finally updated code will refelct from bash to git hub
 
 
-otherway to merge:
+$git checkout child(feature branch)
 
-git checkout main branch
+#above command used to move another branch. It helps not to distrub main branch
 
-git merge child branch
+#You can do any changes it wont reflect in main
 
-merge conflict is important
+#Once you have done the changes have to commit your changes.
+
+$git commit -m "messgae"
+
+#If you want to pull your chnages directly to main branch 
+
+$git push -u origin child branch:main branch
+
+
+#otherway to merge:
+
+#git checkout main branch
+
+$git merge child branch
+
+#merge conflict is important:
+
+#If we have done the same commits in both of braches and try to merge it from child to main branch. We will get merge conflicts
+
+#git stash command: used to save our present code separtely and we can work on different branches and you can use your code again using stash
+
+$git stash (To save the code in stash)
+
+$git stash pop (to get back our code) 
+
+
