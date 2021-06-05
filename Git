@@ -37,4 +37,4 @@ git checkout main branch
 
 git merge child branch
 
-
+git to check conflicts
